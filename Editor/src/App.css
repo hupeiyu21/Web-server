@@ -1,0 +1,70 @@
+.tab-button-container{
+  display: flex;
+}
+
+/* .editor-container{
+  padding-top: 0.4%;
+} */
+
+.App{
+  width: 100%;
+  height: 100%;
+}
+
+/* 总窗口 */
+.pane_editor {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+/* 左侧窗口 */
+.pane_code{
+  height: 100vh;
+  width: 50vw;
+}
+
+/* 右侧窗口 */
+.pane_iframe {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+}
+
+.react-codemirror2{
+  height:100%;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  /* border-bottom-right-radius: .5rem;
+  border-bottom-left-radius: .5rem; */
+  overflow: hidden;
+  height:100%
+}
+
+.editor-container {
+  width:100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: .1rem;
+  height: 60vh;
+}
+
+.CodeMirror{
+  height: 100% !important; 
+}
+
+.hoverbox:hover{
+  transform:scale(1.2);
+}
+
+#comparebox .CodeMirror{
+  min-height: 300px;
+  min-width: 400px;
+  max-width: 500px;
+  max-height: 800px;
+  overflow: scroll;
+}
